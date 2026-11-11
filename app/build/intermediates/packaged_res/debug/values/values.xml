@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="product_categories">
+        <item>Điện tử</item>
+        <item>Thực phẩm</item>
+        <item>Văn phòng phẩm</item>
+        <item>Gia dụng</item>
+        <item>Khác</item>
+    </string-array>
+    <color name="accent">#F59E0B</color>
+    <color name="accent_dark">#D97706</color>
+    <color name="background">#F4F3FB</color>
+    <color name="card">#FFFFFF</color>
+    <color name="danger">#DC2626</color>
+    <color name="danger_light">#FEE2E2</color>
+    <color name="divider">#E5E7EB</color>
+    <color name="edittext_border">#D1D5DB</color>
+    <color name="primary">#6D28D9</color>
+    <color name="primary_dark">#4C1D95</color>
+    <color name="primary_light">#EDE9FE</color>
+    <color name="success">#16A34A</color>
+    <color name="text_primary">#1F2937</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="white">#FFFFFF</color>
+    <string name="active_label">Đang kinh doanh</string>
+    <string name="add_product">+ Thêm sản phẩm</string>
+    <string name="add_title">Thêm sản phẩm</string>
+    <string name="app_bar_main">Kho hàng của tôi</string>
+    <string name="app_name">Quản lý kho hàng</string>
+    <string name="back">Quay lại</string>
+    <string name="cancel">Hủy</string>
+    <string name="category_label">Loại sản phẩm</string>
+    <string name="delete_confirm_message">Bạn có chắc muốn xóa “%1$s”?</string>
+    <string name="delete_confirm_title">Xóa sản phẩm</string>
+    <string name="delete_product">Xóa sản phẩm</string>
+    <string name="delete_yes">Xóa</string>
+    <string name="description_hint">Nhập mô tả (nhiều dòng)…</string>
+    <string name="description_label">Mô tả</string>
+    <string name="detail_title">Chi tiết sản phẩm</string>
+    <string name="empty_list">Chưa có sản phẩm nào.\nNhấn “+ Thêm sản phẩm” để bắt đầu.</string>
+    <string name="error_empty_login">Vui lòng nhập tên đăng nhập và mật khẩu</string>
+    <string name="error_empty_name">Tên sản phẩm không được để trống</string>
+    <string name="error_invalid_price">Giá bán phải là số lớn hơn 0</string>
+    <string name="error_invalid_quantity">Số lượng phải là số nguyên không âm</string>
+    <string name="error_wrong_login">Sai tên đăng nhập hoặc mật khẩu</string>
+    <string name="login">Đăng nhập</string>
+    <string name="login_subtitle">Đăng nhập để tiếp tục</string>
+    <string name="login_title">Quản lý kho hàng</string>
+    <string name="low_stock">Sắp hết hàng</string>
+    <string name="low_stock_badge">Sắp hết hàng</string>
+    <string name="no_description">(Không có mô tả)</string>
+    <string name="password">Mật khẩu</string>
+    <string name="password_hint">Nhập mật khẩu</string>
+    <string name="price_hint">Chỉ nhập số, ví dụ: 250000</string>
+    <string name="price_label">Giá bán (VNĐ)</string>
+    <string name="product_list_title">Danh sách sản phẩm</string>
+    <string name="product_name">Tên sản phẩm</string>
+    <string name="product_name_hint">Ví dụ: Tai nghe Bluetooth</string>
+    <string name="product_price_format">Giá bán: %1$s</string>
+    <string name="product_quantity_format">SL: %1$d</string>
+    <string name="quantity_hint">Chỉ nhập số nguyên, ví dụ: 10</string>
+    <string name="quantity_label">Số lượng</string>
+    <string name="restock">+ Nhập thêm 1</string>
+    <string name="sample_account">Tài khoản mẫu: admin / 123456</string>
+    <string name="save_product">Lưu sản phẩm</string>
+    <string name="sell">- Bán 1</string>
+    <string name="stats_title">Thống kê kho</string>
+    <string name="status_active">Đang kinh doanh</string>
+    <string name="status_inactive">Ngừng kinh doanh</string>
+    <string name="status_label">Trạng thái</string>
+    <string name="stock_quantity">Số lượng tồn kho</string>
+    <string name="stock_value">Giá trị tồn kho</string>
+    <string name="toast_added">Đã thêm sản phẩm</string>
+    <string name="toast_deleted">Đã xóa sản phẩm</string>
+    <string name="toast_not_found">Không tìm thấy sản phẩm</string>
+    <string name="toast_out_of_stock">Hết hàng</string>
+    <string name="toast_restocked">Đã nhập thêm 1 sản phẩm</string>
+    <string name="toast_save_failed">Không thể lưu sản phẩm, thử lại</string>
+    <string name="total_products">Sản phẩm</string>
+    <string name="total_value">Giá trị kho</string>
+    <string name="username">Tên đăng nhập</string>
+    <string name="username_hint">Nhập tên đăng nhập</string>
+    <style name="Theme.QuanLyKhoHang" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+</resources>

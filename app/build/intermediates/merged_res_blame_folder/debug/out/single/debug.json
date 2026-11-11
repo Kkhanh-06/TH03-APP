@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "com.example.quanlykhohang.app-merged_res-32:/drawable_bg_button_gold.xml.flat",
+        "source": "com.example.quanlykhohang.app-main-34:/drawable/bg_button_gold.xml"
+    },
+    {
+        "merged": "com.example.quanlykhohang.app-merged_res-32:/drawable_bg_badge_low.xml.flat",
+        "source": "com.example.quanlykhohang.app-main-34:/drawable/bg_badge_low.xml"
+    },
+    {
+        "merged": "com.example.quanlykhohang.app-merged_res-32:/layout_activity_add_product.xml.flat",
+        "source": "com.example.quanlykhohang.app-main-34:/layout/activity_add_product.xml"
+    },
+    {
+        "merged": "com.example.quanlykhohang.app-merged_res-32:/drawable_bg_button_primary.xml.flat",
+        "source": "com.example.quanlykhohang.app-main-34:/drawable/bg_button_primary.xml"
+    },
+    {
+        "merged": "com.example.quanlykhohang.app-merged_res-32:/drawable_bg_card.xml.flat",
+        "source": "com.example.quanlykhohang.app-main-34:/drawable/bg_card.xml"
+    },
+    {
+        "merged": "com.example.quanlykhohang.app-merged_res-32:/layout_item_product.xml.flat",
+        "source": "com.example.quanlykhohang.app-main-34:/layout/item_product.xml"
+    },
+    {
+        "merged": "com.example.quanlykhohang.app-merged_res-32:/layout_activity_product_detail.xml.flat",
+        "source": "com.example.quanlykhohang.app-main-34:/layout/activity_product_detail.xml"
+    },
+    {
+        "merged": "com.example.quanlykhohang.app-merged_res-32:/drawable_ic_arrow_back.xml.flat",
+        "source": "com.example.quanlykhohang.app-main-34:/drawable/ic_arrow_back.xml"
+    },
+    {
+        "merged": "com.example.quanlykhohang.app-merged_res-32:/drawable_bg_button_danger.xml.flat",
+        "source": "com.example.quanlykhohang.app-main-34:/drawable/bg_button_danger.xml"
+    },
+    {
+        "merged": "com.example.quanlykhohang.app-merged_res-32:/layout_activity_main.xml.flat",
+        "source": "com.example.quanlykhohang.app-main-34:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.quanlykhohang.app-merged_res-32:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.quanlykhohang.app-main-34:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.quanlykhohang.app-merged_res-32:/drawable_bg_button_outline.xml.flat",
+        "source": "com.example.quanlykhohang.app-main-34:/drawable/bg_button_outline.xml"
+    },
+    {
+        "merged": "com.example.quanlykhohang.app-merged_res-32:/drawable_bg_edittext.xml.flat",
+        "source": "com.example.quanlykhohang.app-main-34:/drawable/bg_edittext.xml"
+    },
+    {
+        "merged": "com.example.quanlykhohang.app-merged_res-32:/layout_activity_login.xml.flat",
+        "source": "com.example.quanlykhohang.app-main-34:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.quanlykhohang.app-merged_res-32:/drawable_bg_stat_card.xml.flat",
+        "source": "com.example.quanlykhohang.app-main-34:/drawable/bg_stat_card.xml"
+    },
+    {
+        "merged": "com.example.quanlykhohang.app-merged_res-32:/drawable_bg_badge_category.xml.flat",
+        "source": "com.example.quanlykhohang.app-main-34:/drawable/bg_badge_category.xml"
+    },
+    {
+        "merged": "com.example.quanlykhohang.app-merged_res-32:/drawable_bg_circle_primary.xml.flat",
+        "source": "com.example.quanlykhohang.app-main-34:/drawable/bg_circle_primary.xml"
+    }
+]

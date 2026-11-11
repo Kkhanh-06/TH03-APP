@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Bảng màu của app — KHÁC với bản mẫu trong đề bài.
+        Bản mẫu dùng xanh lá (teal #00796B) + cam; app này dùng
+        tím violet làm màu chính + vàng gold làm màu nhấn.
+    -->
+    <color name="primary">#6D28D9</color>
+    <color name="primary_dark">#4C1D95</color>
+    <color name="primary_light">#EDE9FE</color>
+    <color name="accent">#F59E0B</color>
+    <color name="accent_dark">#D97706</color>
+    <color name="background">#F4F3FB</color>
+    <color name="card">#FFFFFF</color>
+    <color name="text_primary">#1F2937</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="danger">#DC2626</color>
+    <color name="danger_light">#FEE2E2</color>
+    <color name="success">#16A34A</color>
+    <color name="white">#FFFFFF</color>
+    <color name="divider">#E5E7EB</color>
+    <color name="edittext_border">#D1D5DB</color>
+</resources>

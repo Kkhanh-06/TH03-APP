@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quản lý kho hàng</string>
+
+    <!-- Màn hình đăng nhập -->
+    <string name="login_title">Quản lý kho hàng</string>
+    <string name="login_subtitle">Đăng nhập để tiếp tục</string>
+    <string name="username">Tên đăng nhập</string>
+    <string name="username_hint">Nhập tên đăng nhập</string>
+    <string name="password">Mật khẩu</string>
+    <string name="password_hint">Nhập mật khẩu</string>
+    <string name="login">Đăng nhập</string>
+    <string name="sample_account">Tài khoản mẫu: admin / 123456</string>
+    <string name="error_empty_login">Vui lòng nhập tên đăng nhập và mật khẩu</string>
+    <string name="error_wrong_login">Sai tên đăng nhập hoặc mật khẩu</string>
+
+    <!-- Màn hình danh sách -->
+    <string name="app_bar_main">Kho hàng của tôi</string>
+    <string name="stats_title">Thống kê kho</string>
+    <string name="total_products">Sản phẩm</string>
+    <string name="total_value">Giá trị kho</string>
+    <string name="low_stock">Sắp hết hàng</string>
+    <string name="product_list_title">Danh sách sản phẩm</string>
+    <string name="empty_list">Chưa có sản phẩm nào.\nNhấn “+ Thêm sản phẩm” để bắt đầu.</string>
+    <string name="add_product">+ Thêm sản phẩm</string>
+    <string name="product_price_format">Giá bán: %1$s</string>
+    <string name="product_quantity_format">SL: %1$d</string>
+    <string name="low_stock_badge">Sắp hết hàng</string>
+
+    <!-- Màn hình thêm sản phẩm -->
+    <string name="add_title">Thêm sản phẩm</string>
+    <string name="product_name">Tên sản phẩm</string>
+    <string name="product_name_hint">Ví dụ: Tai nghe Bluetooth</string>
+    <string name="price_label">Giá bán (VNĐ)</string>
+    <string name="price_hint">Chỉ nhập số, ví dụ: 250000</string>
+    <string name="quantity_label">Số lượng</string>
+    <string name="quantity_hint">Chỉ nhập số nguyên, ví dụ: 10</string>
+    <string name="category_label">Loại sản phẩm</string>
+    <string name="active_label">Đang kinh doanh</string>
+    <string name="description_label">Mô tả</string>
+    <string name="description_hint">Nhập mô tả (nhiều dòng)…</string>
+    <string name="save_product">Lưu sản phẩm</string>
+    <string name="error_empty_name">Tên sản phẩm không được để trống</string>
+    <string name="error_invalid_price">Giá bán phải là số lớn hơn 0</string>
+    <string name="error_invalid_quantity">Số lượng phải là số nguyên không âm</string>
+    <string name="toast_added">Đã thêm sản phẩm</string>
+    <string name="toast_save_failed">Không thể lưu sản phẩm, thử lại</string>
+
+    <!-- Màn hình chi tiết -->
+    <string name="detail_title">Chi tiết sản phẩm</string>
+    <string name="stock_quantity">Số lượng tồn kho</string>
+    <string name="stock_value">Giá trị tồn kho</string>
+    <string name="status_label">Trạng thái</string>
+    <string name="status_active">Đang kinh doanh</string>
+    <string name="status_inactive">Ngừng kinh doanh</string>
+    <string name="no_description">(Không có mô tả)</string>
+    <string name="restock">+ Nhập thêm 1</string>
+    <string name="sell">- Bán 1</string>
+    <string name="back">Quay lại</string>
+    <string name="delete_product">Xóa sản phẩm</string>
+    <string name="delete_confirm_title">Xóa sản phẩm</string>
+    <string name="delete_confirm_message">Bạn có chắc muốn xóa “%1$s”?</string>
+    <string name="delete_yes">Xóa</string>
+    <string name="cancel">Hủy</string>
+    <string name="toast_restocked">Đã nhập thêm 1 sản phẩm</string>
+    <string name="toast_out_of_stock">Hết hàng</string>
+    <string name="toast_deleted">Đã xóa sản phẩm</string>
+    <string name="toast_not_found">Không tìm thấy sản phẩm</string>
+
+    <!-- Loại sản phẩm (Spinner) -->
+    <string-array name="product_categories">
+        <item>Điện tử</item>
+        <item>Thực phẩm</item>
+        <item>Văn phòng phẩm</item>
+        <item>Gia dụng</item>
+        <item>Khác</item>
+    </string-array>
+</resources>
