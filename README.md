@@ -18,23 +18,7 @@ Dữ liệu lưu bằng **SQLite** qua `SQLiteOpenHelper` (không dùng Room, Fi
 | Truy vấn có tham số, đóng Cursor | Dùng `?` + `selectionArgs` ở mọi truy vấn; `Cursor` luôn đóng trong `finally` |
 | Tắt app mở lại dữ liệu vẫn còn | Dữ liệu nằm trong SQLite trên máy, không lưu trong bộ nhớ |
 
-## 2. Bảng màu — khác với bản mẫu trong đề bài
-
-Bản mẫu trong đề dùng **xanh lá (teal)** làm màu chính và **cam** cho nút "Bán 1".
-App này đổi sang tông hoàn toàn khác (đề bài cho phép tự điều chỉnh màu sắc):
-
-| Vai trò | Màu | Mã |
-| --- | --- | --- |
-| Màu chính (toolbar, nút chính, thẻ thống kê, logo) | Tím violet | `#6D28D9` |
-| Màu chính đậm (chip loại SP, chữ nhấn) | Tím đậm | `#4C1D95` |
-| Màu nhấn (nút "Bán 1") | Vàng gold | `#D97706` |
-| Nền | Tím nhạt | `#F4F3FB` |
-| Cảnh báo / xóa / "Sắp hết hàng" | Đỏ | `#DC2626` |
-
-Toàn bộ màu nằm trong `app/src/main/res/values/colors.xml` — muốn đổi tông màu
-chỉ cần sửa file này.
-
-## 3. Cấu trúc thư mục
+## 2. Cấu trúc thư mục
 
 ```
 QuanLyKhoHang/
@@ -88,46 +72,3 @@ QuanLyKhoHang/
                 ├── ic_arrow_back.xml       # Mũi tên quay lại
                 └── ic_launcher_foreground.xml  # Icon app (hộp kho)
 ```
-
-## 4. Cách mở và chạy
-
-1. Mở **Android Studio** → **Open** → chọn thư mục `QuanLyKhoHang`.
-2. Chờ Gradle sync xong (lần đầu cần mạng để tải AGP 8.2.0 + Gradle 8.2).
-3. Chạy trên máy ảo (AVD, API 24 trở lên) hoặc điện thoại thật (bật USB Debugging).
-4. Đăng nhập bằng tài khoản mẫu: **admin / 123456**.
-
-## 5. Dữ liệu mẫu (chèn sẵn trong `onCreate()`)
-
-Tài khoản: `admin / 123456`.
-
-| Tên sản phẩm | Giá bán | Loại | Số lượng |
-| --- | --- | --- | --- |
-| Chuột không dây | 150.000 đ | Điện tử | 20 |
-| Bàn phím cơ | 450.000 đ | Điện tử | 3 → **Sắp hết hàng** |
-| Sổ tay A5 | 25.000 đ | Văn phòng phẩm | 40 |
-
-Thống kê lúc mở app lần đầu: **3 sản phẩm — 5.350.000 đ — 1 sắp hết hàng**.
-
-## 6. Luồng sử dụng (kiểm thử nhanh)
-
-1. Mở app → đăng nhập `admin / 123456` → vào danh sách.
-2. Nhấn **+ Thêm sản phẩm** → nhập tên, giá > 0, số lượng ≥ 0, chọn loại,
-   bật/tắt "Đang kinh doanh", nhập mô tả → **Lưu sản phẩm** → về danh sách,
-   thống kê cập nhật.
-3. Nhấn vào một sản phẩm → màn chi tiết: xem giá, số lượng, giá trị tồn kho
-   (giá × số lượng), mô tả, trạng thái.
-4. **+ Nhập thêm 1** tăng số lượng; **- Bán 1** giảm số lượng;
-   số lượng = 0 mà nhấn Bán → Toast "Hết hàng", không giảm nữa.
-5. **Xóa sản phẩm** → hộp thoại xác nhận → xóa khỏi CSDL, về danh sách.
-6. **Quay lại** → danh sách và thống kê hiển thị đúng số lượng mới.
-7. Tắt hẳn app rồi mở lại: sản phẩm đã thêm/sửa/xóa vẫn còn nguyên
-   (dữ liệu trong SQLite).
-
-## 7. Các trường hợp lỗi đã xử lý
-
-- Bỏ trống tên đăng nhập/mật khẩu → hiện lỗi, không cho đăng nhập.
-- Sai tài khoản → "Sai tên đăng nhập hoặc mật khẩu", ở lại màn đăng nhập.
-- Thêm SP: tên trống, giá rỗng/≤ 0, số lượng rỗng/âm → `setError` ngay tại ô nhập.
-- Bán khi số lượng = 0 → Toast "Hết hàng".
-- Danh sách rỗng → hiện dòng "Chưa có sản phẩm nào…".
-- Chi tiết mở với id không tồn tại → Toast + đóng màn hình.
