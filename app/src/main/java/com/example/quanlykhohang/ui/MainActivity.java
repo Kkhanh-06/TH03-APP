@@ -18,14 +18,6 @@ import com.example.quanlykhohang.utils.FormatUtils;
 
 import java.util.List;
 
-/**
- * Màn hình 2: Danh sách sản phẩm.
- * Hiển thị khối thống kê (tổng số sản phẩm, tổng giá trị kho,
- * số sản phẩm sắp hết hàng) và danh sách sản phẩm.
- * Nhấn vào một dòng để mở màn hình chi tiết (truyền id qua Intent).
- * Tải lại danh sách + thống kê trong onResume() sau khi thêm/xóa/
- * đổi số lượng ở màn hình khác.
- */
 public class MainActivity extends AppCompatActivity {
 
     private DatabaseHelper dbHelper;
@@ -69,7 +61,6 @@ public class MainActivity extends AppCompatActivity {
         loadData();
     }
 
-    /** Đọc lại toàn bộ dữ liệu từ CSDL và cập nhật giao diện. */
     private void loadData() {
         List<Product> products = dbHelper.getAllProducts();
         adapter.setProducts(products);

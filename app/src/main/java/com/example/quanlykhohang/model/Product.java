@@ -1,20 +1,15 @@
 package com.example.quanlykhohang.model;
 
-/**
- * Lớp Product biểu diễn một sản phẩm trong kho.
- * Khớp với bảng "products" trong cơ sở dữ liệu (xem DatabaseHelper).
- */
 public class Product {
 
     private int id;
     private String name;
-    private long price;        // Giá bán (VNĐ), lớn hơn 0
-    private int quantity;      // Số lượng tồn kho, không âm
-    private String category;   // Điện tử, Thực phẩm, Văn phòng phẩm, Gia dụng, Khác
-    private boolean active;    // true: đang kinh doanh, false: ngừng kinh doanh
+    private long price;
+    private int quantity;
+    private String category;
+    private boolean active;
     private String description;
 
-    /** Dùng khi thêm sản phẩm mới (chưa có id, id do SQLite tự tăng). */
     public Product(String name, long price, int quantity, String category,
                    boolean active, String description) {
         this.name = name;
@@ -25,7 +20,6 @@ public class Product {
         this.description = description;
     }
 
-    /** Dùng khi đọc sản phẩm từ cơ sở dữ liệu (đã có id). */
     public Product(int id, String name, long price, int quantity, String category,
                    boolean active, String description) {
         this.id = id;

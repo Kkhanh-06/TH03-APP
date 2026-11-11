@@ -12,11 +12,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.quanlykhohang.R;
 import com.example.quanlykhohang.database.DatabaseHelper;
 
-/**
- * Màn hình 1: Đăng nhập.
- * Kiểm tra tài khoản bằng cách truy vấn bảng users trong cơ sở dữ liệu
- * (không cố định tài khoản trong code của Activity).
- */
 public class LoginActivity extends AppCompatActivity {
 
     private EditText edtUsername;

@@ -16,11 +16,6 @@ import com.example.quanlykhohang.database.DatabaseHelper;
 import com.example.quanlykhohang.model.Product;
 import com.example.quanlykhohang.utils.FormatUtils;
 
-/**
- * Màn hình 4: Chi tiết sản phẩm.
- * Nhận id qua Intent, truy vấn lại cơ sở dữ liệu theo id để hiển thị.
- * Cho phép nhập thêm 1, bán 1, quay lại, xóa sản phẩm.
- */
 public class ProductDetailActivity extends AppCompatActivity {
 
     public static final String EXTRA_PRODUCT_ID = "product_id";

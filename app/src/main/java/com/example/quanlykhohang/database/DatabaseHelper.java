@@ -11,17 +11,6 @@ import com.example.quanlykhohang.model.Product;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Lớp quản lý cơ sở dữ liệu SQLite của ứng dụng.
- *
- * - Tên CSDL: warehouse.db, phiên bản 1.
- * - Bảng users: tài khoản đăng nhập.
- * - Bảng products: sản phẩm trong kho.
- *
- * Mọi thao tác đọc/ghi đều đi qua lớp này. Activity không được
- * giữ ArrayList làm nơi lưu dữ liệu chính — ArrayList chỉ chứa
- * kết quả truy vấn để hiển thị lên giao diện.
- */
 public class DatabaseHelper extends SQLiteOpenHelper {
 
     public static final String DATABASE_NAME = "warehouse.db";

@@ -17,15 +17,8 @@ import com.example.quanlykhohang.utils.FormatUtils;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Adapter hiển thị danh sách sản phẩm lên RecyclerView.
- * Mỗi dòng hiển thị: tên, giá bán, loại, số lượng;
- * sản phẩm sắp hết hàng (số lượng < 5) hiển thị nhãn cảnh báo
- * và số lượng màu đỏ.
- */
 public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ProductViewHolder> {
 
-    /** Callback khi người dùng nhấn vào một dòng sản phẩm. */
     public interface OnProductClickListener {
         void onProductClick(int productId);
     }

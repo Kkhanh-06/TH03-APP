@@ -14,11 +14,6 @@ import com.example.quanlykhohang.R;
 import com.example.quanlykhohang.database.DatabaseHelper;
 import com.example.quanlykhohang.model.Product;
 
-/**
- * Màn hình 3: Thêm sản phẩm.
- * Kiểm tra dữ liệu nhập rồi lưu vào cơ sở dữ liệu,
- * sau đó quay về màn hình danh sách.
- */
 public class AddProductActivity extends AppCompatActivity {
 
     private EditText edtName;
